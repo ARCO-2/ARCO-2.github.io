@@ -258,6 +258,7 @@ video.hero-video {
 .video-video {
     margin-top: 15vh;
     width: 40%;
+    height: 50%;
     border: 1px solid var(--clr-black);
     border-radius: 1rem;
 }
