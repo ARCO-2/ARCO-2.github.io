@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang='it'>
+    <head>
+        
+        <!-- required meta -->
+        <meta charset='UTF-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+        <!-- customize -->
+        <title> ARCOO &bull; Awarness Raising CO2 </title>
+        <link rel='shortcut icon' href='assets/img/logo.png' type='image/x-icon'>
+
+        <!-- import -->
+        <link rel='stylesheet' href='assets/css/style.css'>
+        <script src='assets/js/script.js' defer></script>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <div id="home" class="page">
+            <p class="hero-title">ARCOO</p>
+            <p class="hero-phrase">Awarness Raising CO2</p>
+            <video class="hero-video" autoplay muted>
+                <source src="assets/vid/hero-video.mp4" type="video/mp4">
+                Oops, il tuo browser non supporta i video!
+            </video>
+            <i class="uil uil-angle-down" onclick="go('#about')"></i>
+        </div>
+
+        <div id="about" class="page">
+            <p class="title">About</p>
+            <p class="about-desc">Arcoo è un progetto realizzato da cinque ragazzi dell'istituto Parentucelli-Arzelà di Sarzana (SP), che ha come obiettivo la sensibilizzazione sull' emissione di CO2. Con la nostra applicazione potrai vedere scansionando il peso del prodotto quanta CO2 è stata emessa, e decidere di comprarne uno più ecosostenibile! </p>
+            <img class="about-agenda popup-me" src="assets/img/agenda-13.jpg">
+            <i class="uil uil-angle-down" onclick="go('#video')"></i>
+        </div>
+
+        <div id="video" class="page">
+            <p class="title">Video</p>
+            <video class="video-video" controls>
+                <source src="assets/vid/video.mp4" type="video/mp4">
+                Oops, il tuo browser non supporta i video!
+            </video>
+            <i class="uil uil-angle-down" onclick="go('#team')"></i>
+        </div>
+
+        <div id="team" class="page">
+            <p class="team-us">
+                <strong>Juri Gemignani</strong> &bull; Team Leader, Developer <br>
+                <strong>Pietro Scopsi</strong> &bull; Product Manager, Montatore video <br>
+                <strong>Anna Garbusi</strong> &bull; Communication Specialist, Regista <br>
+                <strong>Pietro Mazzoni</strong> &bull; Designer <br>
+                <strong>Alberto Lido Barenco</strong> &bull; Designer
+            </p>
+            <img src="assets/img/coop.png" class="coop">
+        </div>
+
+        <!-- HEADER if you change the position of this element ur an atom user -->
+        <header class="navbar">
+            <a href="#home" class="nav-logo"><img src="assets/img/arco.png" alt="LOGO"></a>
+            <nav>
+                <a href="#home" class="navbar-link">home</a>
+                <a href="#about" class="navbar-link">about</a>
+                <a href="#video" class="navbar-link">video</a>
+                <a href="#team" class="navbar-link">team</a>
+            </nav>
+        </header>
+
+        <footer class="socials">
+            <i class="uil uil-instagram social"></i>
+            <i class="uil uil-presentation-play social"></i>
+            <i class="uil uil-bell-school social"></i>
+        </footer>
+
+    </body>
+
+</html>
